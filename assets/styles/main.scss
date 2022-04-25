@@ -16,6 +16,8 @@ header, main, footer {
 }
 
 header {
+  display: grid;
+  justify-content: center;
   padding: 1rem;
 }
 
