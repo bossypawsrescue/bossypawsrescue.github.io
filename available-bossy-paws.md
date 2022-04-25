@@ -1,5 +1,5 @@
 ---
-title: "Available Bossy Paws | Bossy Paws Rescue"
+title: "Available Bossy Paws"
 ---
 
 TODO: Add petfinder plugin to page
