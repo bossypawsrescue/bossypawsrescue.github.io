@@ -1,5 +1,5 @@
 ---
-title: "Bossy Paws Rescue | Contact Us"
+title: "Contact Us | Bossy Paws Rescue"
 ---
 
 # Contact Us
