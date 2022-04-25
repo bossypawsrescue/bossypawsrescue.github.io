@@ -1,5 +1,5 @@
 ---
-title: "Forms | Bossy Paws Rescue"
+title: "Forms"
 ---
 
 TODO: Add form links
