@@ -1,5 +1,5 @@
 ---
-title: "Partners & Friends | Bossy Paws Rescue"
+title: "Partners & Friends"
 ---
 
 TODO: Add partners and friends
