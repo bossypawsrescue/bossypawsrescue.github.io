@@ -1,5 +1,5 @@
 ---
-title: "Events | Bossy Paws Rescue"
+title: "Events"
 ---
 
 {% for event in site.events %}
