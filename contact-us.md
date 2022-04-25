@@ -2,13 +2,13 @@
 title: "Bossy Paws Rescue | Contact Us"
 ---
 
-#Contact Us#
+# Contact Us
 
-##Help Save Animals With Amazon Smiles##
+## Help Save Animals With Amazon Smiles
 
-[#](TODO: Add Amazon Smiles reference link)
+[TODO: Add Amazon Smiles reference link](#)
 
-##Find More Ways to Help##
+## Find More Ways to Help
 
 We are as strong as the community that holds  us up. Together, we can do more than we can do alone. Let's bring our  abilities and passions together.</p
 
