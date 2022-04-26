@@ -1,5 +1,6 @@
 ---
 title: "Events"
+permalink: /events
 ---
 
 {% for event in site.events %}
