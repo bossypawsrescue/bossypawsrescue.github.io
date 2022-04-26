@@ -38,15 +38,19 @@ nav {
     background-color: transparent;
     color: #000;
     padding: 1rem;
+    border-radius: 3px;
     
-    transition: background-color 300ms, color 300ms;
+    transition-property: background-color, color, text-shadow;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
     
     &[aria-current=page] {
       border-bottom: 1px solid #000;
     }
     
     &:hover {
-       color: #fff;
+      color: #fff;
+      text-shadow: 0 1px #000;
     }
     
     &:nth-child(1):hover {
