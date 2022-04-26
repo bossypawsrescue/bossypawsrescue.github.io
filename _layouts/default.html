@@ -11,12 +11,9 @@
     <header>
       <img src="assets/images/logo.png" width="300" height="300" />
       <nav>
-        <a href="/" {% if page.url == "/" %}aria-current="page"{% endif %}>Home</a>
-        <a href="/contact-us">Contact Us</a>
-        <a href="/available-bossy-paws">Available Bossy Paws</a>
-        <a href="/forms">Forms</a>
-        <a href="/partners-friends">Partners & Friends</a>
-        <a href="/events">Events</a>
+        {% for item in site.data.navigation %}
+          <a href="{{ item.link }}" {% if page.url == item.link %}aria-current="page"{% endif %}>{{ item.name }}</a>
+        {% endfor %}
       </nav>
     </header>
     <main>
