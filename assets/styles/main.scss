@@ -31,7 +31,28 @@ header {
 
 nav {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
+  
+  > a {
+    text-decoration: none;
+    background-color: transparent;
+    color: #000;
+    padding: 1rem;
+    
+    transition: background-color 300ms, color 300ms;
+    
+    &[aria-current=page] {
+      border-bottom: 1px solid #000;
+    }
+    
+    &:hover {
+       color: #fff;
+    }
+    
+    &:nth-child(0):hover {
+      background-color: #ff0000;
+    }
+  }
 }
 
 footer {
