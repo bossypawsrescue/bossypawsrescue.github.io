@@ -49,8 +49,28 @@ nav {
        color: #fff;
     }
     
-    &:nth-child(0):hover {
-      background-color: #ff0000;
+    &:nth-child(1):hover {
+      background-color: #fd5a59;
+    }
+    
+    &:nth-child(2):hover {
+      background-color: #fdd654;
+    }
+    
+    &:nth-child(3):hover {
+      background-color: #3bf642;
+    }
+    
+    &:nth-child(4):hover {
+      background-color: #40fffa;
+    }
+    
+    &:nth-child(5):hover {
+      background-color: #395bfa;
+    }
+    
+    &:nth-child(6):hover {
+      background-color: #f038ee;
     }
   }
 }
