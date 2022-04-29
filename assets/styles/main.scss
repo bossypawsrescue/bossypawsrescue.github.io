@@ -34,14 +34,11 @@ header {
   }
 }
 
-main, footer {
- padding: 0 1rem; 
-}
-
 nav {
   display: flex;
   gap: 2rem;
   justify-content: center;
+  flex-wrap: wrap;
   width: 100%;
   
   @media (max-width: 900px) {
@@ -96,6 +93,10 @@ nav {
   }
 }
 
+main {
+ padding: 0 1rem; 
+}
+
 footer {
- padding: 1rem 0; 
+ padding: 1rem; 
 }
