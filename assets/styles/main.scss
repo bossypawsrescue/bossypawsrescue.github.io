@@ -50,7 +50,7 @@ nav {
     
     transition: background-color 300ms ease-in-out, color 300ms ease-in-out, text-shadow 300ms ease-in-out;
     
-    @media (min-width: 850px) {
+    @media (max-width: 850px) {
       width: 100%;
     }
     
