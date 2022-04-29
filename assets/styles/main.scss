@@ -30,7 +30,7 @@ header {
   
   > img {
     height: auto;
-    width: 50%;
+    width: 30%;
     max-width: 300px;
     min-width: 150px;
   }
@@ -40,6 +40,10 @@ nav {
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
+  
+  @media (max-width: 850px) {
+    gap: 0;
+  }
   
   > a {
     text-decoration: none;
