@@ -1,6 +1,10 @@
 ---
 ---
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-size: 16px;
   font-family: Lato, arial, sans-serif;
@@ -9,6 +13,7 @@ html {
 body {
   display: grid;
   grid-auto-rows: min-content auto min-content;
+  justify-content: center;
   
   height: 100vh;
   margin: 0;
@@ -16,7 +21,7 @@ body {
 }
 
 header, main, footer {
-  width: 100vw;
+  width: 100%;
   max-width: 1280px;
 }
 
@@ -37,8 +42,8 @@ header {
 nav {
   display: flex;
   gap: 2rem;
-  flex-wrap: wrap;
   justify-content: center;
+  width: 100%;
   
   @media (max-width: 900px) {
     gap: 0;
