@@ -8,7 +8,6 @@ html {
 
 body {
   display: grid;
-  justify-content: center;
   grid-auto-rows: min-content auto min-content;
   
   height: 100vh;
@@ -23,7 +22,6 @@ header, main, footer {
 
 header {
   display: grid;
-  justify-content: center;
   justify-items: center;
   gap: 2rem;
   padding: 1rem 0;
@@ -40,8 +38,9 @@ nav {
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
+  justify-content: center;
   
-  @media (max-width: 850px) {
+  @media (max-width: 900px) {
     gap: 0;
   }
   
@@ -54,7 +53,7 @@ nav {
     
     transition: background-color 300ms ease-in-out, color 300ms ease-in-out, text-shadow 300ms ease-in-out;
     
-    @media (max-width: 850px) {
+    @media (max-width: 900px) {
       width: 100%;
     }
     
