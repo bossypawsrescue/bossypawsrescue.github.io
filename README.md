@@ -1,5 +1,7 @@
 # :construction: Bossy Paws Rescue [:link:](https://bossypawsrescue.github.io/) :dog: :cat:
 
+[![pages-build-deployment](https://github.com/bossypawsrescue/bossypawsrescue.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/bossypawsrescue/bossypawsrescue.github.io/actions/workflows/pages/pages-build-deployment)
+
 This is the website for the organization. It is constructed using [:link:Github Pages](https://docs.github.com/en/pages) which uses [:link:Jekyll](https://jekyllrb.com/docs/) under the hood to statically generate the website. The following are some common use cases in order to make changes to the website.
 
 ## Modify an exisiting page
