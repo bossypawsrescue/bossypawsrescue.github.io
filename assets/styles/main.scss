@@ -100,3 +100,24 @@ main {
 footer {
  padding: 1rem; 
 }
+
+.event {
+  display: grid;
+  grid-template-areas: "date | title       | time"
+                       "date | description | location";
+}
+.event-date { 
+  grid-area: date;
+}
+.event-title {
+  grid-area: title; 
+}
+.event-time {
+  grid-area: time; 
+}
+.event-description {
+  grid-area: description; 
+}
+.event-location {
+  grid-area: location;
+}
