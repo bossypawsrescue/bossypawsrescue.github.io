@@ -1,17 +1,17 @@
 - name: Home
   link: /
   
-- name: Contact Us
-  link: /contact-us
-  
 - name: Available Bossy Paws
   link: /available-bossy-paws
   
-- name: Forms
-  link: /forms
+- name: Events
+  link: /events
   
 - name: Partners & Friends
   link: /partners-friends
   
-- name: Events
-  link: /events
+- name: Forms
+  link: /forms
+  
+- name: Contact Us
+  link: /contact-us
