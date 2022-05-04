@@ -27,7 +27,7 @@ permalink: /available-bossy-paws
         window.addEventListener("message", (event) => {
                 const scrollHeight = event.data.scrollHeight;
                 if (scrollHeight > 0) {
-                        petScroller.style.height = scrollHeight;
+                        petScroller.style.height = scrollHeight + "px";
                         petScroller.style.opacity = "1";
                 } else {
                         setTimeout(() => petScroller.contentWindow.postMessage("iframe-03"), 200);
