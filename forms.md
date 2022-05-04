@@ -5,6 +5,32 @@ permalink: /forms
 
 ---
 
+<style>
+  section#forms {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 12rem);
+    grid-auto-rows: 5rem;
+    gap: 1rem;
+    justify-items: stretch;
+    align-items: stretch;
+    justify-content: center;
+  }
+  
+  section#forms > a {
+    text-decoration: none;
+    background-color: #f6f6f6;
+    text-align: center;
+    border-radius: 3px;
+    color: #000;
+    line-height: 5rem;
+  }
+  
+  section#forms > a:hover, section#forms > a:focus {
+    text-decoration: underline;
+    background-color: #dfdfdf;
+  }
+</style>
+
 # {{ page.title }}
 
 <section id="forms">
