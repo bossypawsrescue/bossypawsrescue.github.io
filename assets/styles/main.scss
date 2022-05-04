@@ -41,7 +41,7 @@ nav {
   flex-wrap: wrap;
   width: 100%;
   
-  @media (max-width: 900px) {
+  @media (max-width: 1000px) {
     gap: 0;
   }
   
@@ -54,7 +54,7 @@ nav {
     
     transition: background-color 300ms ease-in-out, color 300ms ease-in-out, text-shadow 300ms ease-in-out;
     
-    @media (max-width: 900px) {
+    @media (max-width: 1000px) {
       width: 100%;
     }
     
