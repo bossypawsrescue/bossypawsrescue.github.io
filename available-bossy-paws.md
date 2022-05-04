@@ -20,7 +20,7 @@ permalink: /available-bossy-paws
         <script src=&quot;https://www.petfinder.com/assets/widgets/scripts/main-widgets-web.js&quot;>
         </script>
     
-    </body>" style="width: 100%; overflow: visible; height: 1000px; transition: height 1.5s ease-in-out, opacity 1.5s ease-in; opacity: 0;"></iframe>
+    </body>" style="width: 100%; overflow: visible; height: 1000px; transition: height .5s ease-in-out, opacity .5s ease-in; opacity: 0;"></iframe>
 
 <script>
         const petScroller = document.getElementById("iframe-03");
@@ -28,7 +28,6 @@ permalink: /available-bossy-paws
                 const eventData = event.data;
                 petScroller.style.height = eventData.scrollHeight;
                 petScroller.style.opacity = "1";
-                console.log(event);
         });
-        setTimeout(() => petScroller.contentWindow.postMessage("iframe-03"), 1000);
+        setInterval(() => petScroller.contentWindow.postMessage("iframe-03"), 1000);
 </script>
