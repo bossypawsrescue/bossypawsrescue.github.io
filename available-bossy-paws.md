@@ -30,5 +30,5 @@ permalink: /available-bossy-paws
                 petScroller.style.opacity = "1";
                 console.log(event);
         });
-        petScroller.contentWindow.postMessage("iframe-03");
+        setTimeout(() => petScroller.contentWindow.postMessage("iframe-03"), 1000);
 </script>
