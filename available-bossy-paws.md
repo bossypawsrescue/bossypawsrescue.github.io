@@ -25,9 +25,13 @@ permalink: /available-bossy-paws
 <script>
         const petScroller = document.getElementById("iframe-03");
         window.addEventListener("message", (event) => {
-                const eventData = event.data;
-                petScroller.style.height = eventData.scrollHeight;
-                petScroller.style.opacity = "1";
+                const scrollHeight = event.data.scrollHeight;
+                if (scrollHeight > 0) {
+                        petScroller.style.height = scrollHeight;
+                        petScroller.style.opacity = "1";
+                } else {
+                        setTimeout(() => petScroller.contentWindow.postMessage("iframe-03"), 200);
+                }
         });
-        setInterval(() => petScroller.contentWindow.postMessage("iframe-03"), 1000);
+        setTimeout(() => petScroller.contentWindow.postMessage("iframe-03"), 200);
 </script>
