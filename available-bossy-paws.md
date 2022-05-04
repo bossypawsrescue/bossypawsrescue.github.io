@@ -20,7 +20,7 @@ permalink: /available-bossy-paws
         <script src=&quot;https://www.petfinder.com/assets/widgets/scripts/main-widgets-web.js&quot;>
         </script>
     
-    </body>" style="width: 100%; overflow: visible; height: 1000px; transition: height .5s ease-in-out, opacity .5s ease-in; opacity: 0;"></iframe>
+    </body>" style="width: 100%; overflow: visible; transition: opacity .5s ease-in; opacity: 0;"></iframe>
 
 <script>
         const petScroller = document.getElementById("iframe-03");
