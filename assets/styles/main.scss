@@ -94,23 +94,26 @@ nav {
 }
 
 main {
- padding: 0 1rem; 
+  padding: 0 1rem; 
 }
 
 footer {
- padding: 1rem; 
+  padding: 1rem; 
+  margin-top: 2rem;
 }
 
 #events {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
 }
 .event {
   display: grid;
   grid-template-areas: "date title       time"
                        "date description location";
+  grid-template-columns: min-content 1fr 1fr;
   gap: 1rem;
+  padding-top: 1rem;
   
   & + & {
     border-top: 1px solid #6f6f6f;
