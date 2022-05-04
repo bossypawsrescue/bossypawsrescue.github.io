@@ -12,7 +12,3 @@ We are as strong as the community that holds us up. Together, we can do more tha
 There are many ways to join us and support our animals. Contact us to find out more about volunteer opportunities, events, and ways that you can get our message to your friends and family.
 
 Email: [Info@bossypawsrescue.org](mailto:Info@bossypawsrescue.org)
-
-## Looking to add to your family?
-
-Fill out the contact form and upload your application as an attachment below so we can find the perfect match for you!
