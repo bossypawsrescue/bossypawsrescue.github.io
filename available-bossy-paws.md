@@ -24,10 +24,11 @@ permalink: /available-bossy-paws
 
 <script>
         const petScroller = document.getElementById("iframe-03");
-        petScroller.addEventListener("message", (event) => {
+        window.addEventListener("message", (event) => {
+                const eventData = event.data();
+                petScroller.style.height = eventData.scrollHeight;
+                petScroller.style.opacity = "1";
                 console.log(event);
         });
-        
-        petScroller.style.height = "1000px";
-        petScroller.style.opacity = "1";
+        petScroller.contentWindow.postMessage("GetHeight");
 </script>
