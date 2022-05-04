@@ -104,8 +104,24 @@ footer {
 
 section#forms {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 100px);
+  grid-template-columns: repeat(auto-fill, 10rem);
+  grid-auto-rows: 5rem;
   gap: 1rem;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  
+  > a {
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #3f3f3f;
+    background-color: #f0f0f0;
+    
+    &:hover, &:focus {
+      text-decoration: underline;
+      background-color: #dfdfdf;
+    }
+  }
 }
 
 section#events {
