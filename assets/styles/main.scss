@@ -91,6 +91,19 @@ nav {
       background-color: #f038ee;
     }
   }
+  
+  .quick-links {
+    display: flex;
+    gap: 1rem;
+    
+    > a {
+      display: inline-block;
+      height: 100%;
+      background-color: #f0f0f0;
+      padding: 1rem;
+      box-sizing: content-box;
+    }
+  }
 }
 
 main {
